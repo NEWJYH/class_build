@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
+  generateBuildId: ()=>"codecamp-deploy-project"
 };
 
 export default nextConfig;
